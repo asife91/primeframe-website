@@ -265,8 +265,8 @@ a:hover {
 }
 
 .logo-img {
-    height: 320px;
-    /* Zoom into the vertical image - adjusted to prevent text cutoff */
+    height: 240px;
+    /* Optimized height to show full logo including bottom text */
     width: auto;
     object-fit: contain;
     max-width: none;
@@ -1295,7 +1295,7 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../images/IMG_0709.jpg');
+    background-image: url('../assets/images/IMG_0709.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
