@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const formDataObj = new FormData(contactForm);
 
-            const response = await fetch("https://formspree.io/f/xldqnklq", {
+            const response = await fetch("https://formspree.io/f/xdaodeoo", {
                 method: "POST",
                 headers: { "Accept": "application/json" },
                 body: formDataObj,
