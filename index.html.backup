@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executive Presence - אימון בכירים להופעה מול מצלמה</title>
+    <meta name="description" content="אימון אישי לבכירים במשק הישראלי: איך לשדר כריזמה, סמכות וביטחון מול המצלמה.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-text">THE <span class="logo-o">◉</span> DIRECT<span class="logo-o">◉</span>R</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#methodology">השיטה</a></li>
+                <li><a href="#about-personal">אודות אסיף</a></li>
+                <li><a href="#concepts">מושגים</a></li>
+                <li><a href="#testimonials">המלצות</a></li>
+                <li><a href="#contact" class="btn-gold">תיאום ייעוץ</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <h1 class="fade-up">לשלוט במסך.<br>לשדר <span class="gold-text">עוצמה.</span></h1>
+            <p class="subtitle fade-up">אימון אישי לבכירים במשק הישראלי: הופעה מול מצלמה, ראיונות תקשורתיים ופרזנטציות
+                דיגיטליות.</p>
+            <div class="cta-group fade-up">
+                <a href="#contact" class="btn-gold">שריין פגישת אבחון</a>
+                <a href="#methodology" class="btn-outline">גלה עוד</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </header>
+
+    <!-- Methodology Section -->
+    <section id="methodology" class="section-dark">
+        <div class="container">
+            <h2 class="section-title fade-up">השיטה שלנו</h2>
+            <div class="grid-3">
+                <div class="card fade-up">
+                    <div class="icon">🎯</div>
+                    <h3>דיוק המסר</h3>
+                    <p>זיקוק המסרים המרכזיים שלך למשפטי מחץ קצרים, חדים וזכירים שחודרים את הרעש התקשורתי.</p>
+                </div>
+                <div class="card fade-up">
+                    <div class="icon">👁️</div>
+                    <h3>שפת גוף וכריזמה</h3>
+                    <p>שליטה בניואנסים הקטנים: קשר עין, יציבה, ותנועות ידיים שמשדרות סמכות ורוגע תחת לחץ.</p>
+                </div>
+                <div class="card fade-up">
+                    <div class="icon">🎙️</div>
+                    <h3>רטוריקה וקול</h3>
+                    <div class="concept-card fade-up">
+                        <span class="concept-number">01</span>
+                        <h3 class="concept-title">Soundbite</h3>
+                        <p>[הסבר קצר על סאונד-בייט מהמצגת. משפט קצר וקליט שנועד לתקשורת.]</p>
+                    </div>
+                    <div class="concept-card fade-up">
+                        <span class="concept-number">02</span>
+                        <h3 class="concept-title">Bridging</h3>
+                        <p>[הסבר על טכניקת הגישור: איך לוקחים שאלה קשה ומעבירים אותה למסר שלך.]</p>
+                    </div>
+                    <div class="concept-card fade-up">
+                        <span class="concept-number">03</span>
+                        <h3 class="concept-title">Framing</h3>
+                        <p>[הסבר על מסגור: איך לקבוע את גבולות הגזרה של הדיון ולשלוט בנרטיב.]</p>
+                    </div>
+                    <div class="concept-card fade-up">
+                        <span class="concept-number">04</span>
+                        <h3 class="concept-title">Non-Verbal Cues</h3>
+                        <p>[הסבר על תקשורת בלתי מילולית: מה הידיים והעיניים שלך אומרות כשהפה שותק.]</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- About / Authority Section (Original) -->
+    <section id="about" class="section-black">
+        <div class="container split-layout">
+            <div class="text-content fade-up">
+                <h2 class="section-title">למה דווקא אנחנו?</h2>
+                <p>בעולם שבו כל ראיון יכול להפוך לויראלי, אין מקום לטעויות. אנחנו מתמחים בעבודה עם הדרג
+                    הבכיר ביותר:
+                    מנכ"לים, פוליטיקאים ובכירים במערכת הביטחון.</p>
+                <p>התהליך שלנו הוא דיסקרטי, ממוקד ומותאם אישית ללוח הזמנים הצפוף שלך. אנחנו לא מלמדים "משחק"
+                    – אנחנו
+                    מלמדים אותך להיות הגרסה הכי טובה וחזקה של עצמך מול העדשה.</p>
+            </div>
+            <div class="image-content fade-up">
+                <div class="placeholder-img"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section-dark">
+        <div class="container">
+            <h2 class="section-title fade-up">בכירים מספרים</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial fade-up">
+                    <p>"ההכנה המדויקת ביותר שעברתי לפני הופעה בפריים טיים. הרגשתי בשליטה מלאה."</p>
+                    <cite>– מנכ"ל חברה ציבורית, ת"א 125</cite>
+                </div>
+                <div class="testimonial fade-up">
+                    <p>"שינה לחלוטין את הדרך בה אני מעבירה מסרים למשקיעים בזום. חובה לכל מנהל."</p>
+                    <cite>– סמנכ"לית שיווק גלובלית</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-gold-gradient">
+        <div class="container contact-container">
+            <div class="contact-text fade-up">
+                <h2>מוכן לעלות שלב?</h2>
+                <p>השאר פרטים ונחזור אליך לתיאום שיחת התאמה דיסקרטית.</p>
+            </div>
+            <form class="contact-form fade-up" action="https://formspree.io/f/xldqnklq" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="שם מלא" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="phone" placeholder="פלאפון" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="מייל" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="תוכן הפנייה" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn-black">שלח פרטים</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Executive Presence. כל הزכויות שמורות.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+
+</html>

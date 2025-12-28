@@ -1,0 +1,11 @@
+.logo-text {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.logo-o {
+    color: var(--gold);
+    font-size: 1.3rem;
+    margin: 0 -2px;
+}
