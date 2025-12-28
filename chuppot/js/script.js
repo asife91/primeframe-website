@@ -197,17 +197,17 @@ document.addEventListener('DOMContentLoaded', () => {
         submitButton.textContent = 'שולח...';
         submitButton.disabled = true;
 
-        // Submit to Netlify via Fetch
+        // Submit to Formspree via Fetch
         try {
             const formDataObj = new FormData(contactForm);
 
-            const response = await fetch("/", {
+            const response = await fetch("https://formspree.io/f/xldqnklq", {
                 method: "POST",
-                headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: new URLSearchParams(formDataObj).toString(),
+                headers: { "Accept": "application/json" },
+                body: formDataObj,
             });
 
-            if (response.ok || response.status === 200 || response.status === 204) {
+            if (response.ok) {
                 // Success message
                 submitButton.textContent = '✓ הפנייה נשלחה בהצלחה!';
                 submitButton.style.background = 'linear-gradient(135deg, #4ade80 0%, #22c55e 100%)';
