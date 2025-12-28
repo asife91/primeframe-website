@@ -197,13 +197,15 @@ document.addEventListener('DOMContentLoaded', () => {
         submitButton.textContent = 'שולח...';
         submitButton.disabled = true;
 
-        // Simulate form submission (replace with actual endpoint)
+        // Submit to Netlify via Fetch
         try {
-            // TODO: Replace with actual form submission endpoint
-            console.log('Form Data:', formData);
+            const formDataObj = new FormData(contactForm);
 
-            // Simulate API call
-            await new Promise(resolve => setTimeout(resolve, 1500));
+            await fetch("/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams(formDataObj).toString(),
+            });
 
             // Success message
             submitButton.textContent = '✓ הפנייה נשלחה בהצלחה!';
