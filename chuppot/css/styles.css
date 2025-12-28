@@ -265,8 +265,8 @@ a:hover {
 }
 
 .logo-img {
-    height: 380px;
-    /* Zoom into the vertical image */
+    height: 320px;
+    /* Zoom into the vertical image - adjusted to prevent text cutoff */
     width: auto;
     object-fit: contain;
     max-width: none;
