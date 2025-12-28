@@ -251,13 +251,21 @@ a:hover {
 }
 
 .nav-logo {
-    font-family: var(--font-heading-he);
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: var(--primary-navy);
     display: flex;
     align-items: center;
-    gap: var(--space-sm);
+    height: 100%;
+}
+
+.logo-img {
+    height: 50px;
+    /* Adjust based on navbar height */
+    width: auto;
+    object-fit: contain;
+    transition: transform var(--transition-normal);
+}
+
+.logo-img:hover {
+    transform: scale(1.05);
 }
 
 .nav-menu {
