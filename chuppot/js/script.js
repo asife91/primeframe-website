@@ -201,21 +201,25 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const formDataObj = new FormData(contactForm);
 
-            await fetch("/", {
+            const response = await fetch("/", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: new URLSearchParams(formDataObj).toString(),
             });
 
-            // Success message
-            submitButton.textContent = '✓ הפנייה נשלחה בהצלחה!';
-            submitButton.style.background = 'linear-gradient(135deg, #4ade80 0%, #22c55e 100%)';
+            if (response.ok || response.status === 200 || response.status === 204) {
+                // Success message
+                submitButton.textContent = '✓ הפנייה נשלחה בהצלחה!';
+                submitButton.style.background = 'linear-gradient(135deg, #4ade80 0%, #22c55e 100%)';
 
-            // Reset form
-            contactForm.reset();
+                // Reset form
+                contactForm.reset();
 
-            // Show additional success message
-            showNotification('תודה! הפנייה נשלחה בהצלחה. אחזור אליכם בהקדם האפשרי.', 'success');
+                // Show additional success message
+                showNotification('תודה! הפנייה נשלחה בהצלחה. אחזור אליכם בהקדם האפשרי.', 'success');
+            } else {
+                throw new Error('Server response not ok');
+            }
 
             // Reset button after 3 seconds
             setTimeout(() => {
