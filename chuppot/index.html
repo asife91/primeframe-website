@@ -323,7 +323,9 @@
                 </p>
             </div>
 
-            <form class="contact-form fade-in" id="contactForm">
+            <form class="contact-form fade-in" id="contactForm" name="contact-chuppot" method="POST"
+                data-netlify="true">
+                <input type="hidden" name="form-name" value="contact-chuppot">
                 <div class="form-group">
                     <label for="fullName" class="form-label">שם מלא *</label>
                     <input type="text" id="fullName" name="fullName" class="form-input" placeholder="השם המלא שלכם"
