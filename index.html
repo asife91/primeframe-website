@@ -21,7 +21,7 @@
             <!-- Logo removed -->
             <ul class="nav-links">
                 <li><a href="#methodology">השיטה</a></li>
-                <li><a href="#about-personal">מי אנחנו</a></li>
+                <li><a href="#about-personal">מי אני</a></li>
                 <li><a href="#concepts">מושגים</a></li>
                 <li><a href="#testimonials">המלצות</a></li>
                 <li><a href="#contact" class="btn-gold">לבדיקת התאמה</a></li>
@@ -113,40 +113,33 @@
             </div>
         </section>
 
-        <!-- About Asif Elkayam Section (Moved) -->
+        <!-- About Asif Elkayam Section -->
         <section id="about-personal" class="section-black">
-            <div class="container personal-container">
-                <div class="personal-image-wrapper fade-up">
-                    <img src="images/about-asif.png" alt="אסיף אלקיים" class="personal-image asif-img-style">
-                </div>
-                <div class="personal-content fade-up">
-                    <h2>אסיף אלקיים</h2>
-                    <h3>יועץ תקשורת, רטוריקה והופעה מול מצלמה</h3>
+            <div class="container about-unified-container">
+                <div class="about-text-content fade-up">
+                    <h2 class="section-title">מי אני</h2>
+                    <h3 class="about-subtitle">אסיף אלקיים - יועץ תקשורת, רטוריקה והופעה מול מצלמה</h3>
                     <div class="bio-text">
-                        <p><strong>יועץ תקשורת ואסטרטגיה לארגונים ובכירים <br>מכשיר ומאמן את מסבירי צה”ל בשגרה
+                        <p><strong>יועץ תקשורת ואסטרטגיה לארגונים ובכירים <br>מכשיר ומאמן את מסבירי צה"ל בשגרה
                                 ובחירום</strong></p>
                         <p>לשעבר דובר ויועץ פרלמנטרי בכנסת ובעיריית תל אביב, מנהל הסושיאל של ישראל היום, פרשן ומגיש
                             בערוצי הטלוויזיה.</p>
-                        <p>מייסד “לזרוח אפריקה” – משלחות התנדבות טיפולית באפריקה.</p>
-                        <p>מחבר ארבעה ספרים רבי מכר שנלמדים בבתי ספר, בצה”ל ובאקדמיה.</p>
+                        <p>מייסד "לזרוח אפריקה" – משלחות התנדבות טיפולית באפריקה.</p>
+                        <p>מחבר ארבעה ספרים רבי מכר שנלמדים בבתי ספר, בצה"ל ובאקדמיה.</p>
                         <p>איש השנה בתרבות תשע"ז.</p>
                     </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- About / Authority Section (Original) -->
-        <section id="about" class="section-black">
-            <div class="container split-layout">
-                <div class="text-content fade-up">
-                    <h2 class="section-title">למה אנחנו?</h2>
-                    <p>אנחנו מתמחים בעבודה עם הדרג הבכיר ביותר:</p>
-                    <p><strong>מנכ"לים, פוליטיקאים ובכירים בצה“ל.</strong></p>
-                    <p>התהליך שלנו הוא דיסקרטי, ממוקד ומותאם אישית ללוח הזמנים הצפוף שלך.</p>
-                    <p>אנחנו לא מלמדים "משחק" – <span class="gold-text">אנחנו מלמדים שליטה.</span></p>
+                    <h2 class="section-title" style="margin-top: 60px;">למה אני</h2>
+                    <div class="bio-text">
+                        <p>אני מתמחה בעבודה עם הדרג הבכיר ביותר:</p>
+                        <p><strong>מנכ"לים, פוליטיקאים ובכירים בצה"ל.</strong></p>
+                        <p>התהליך שלי הוא דיסקרטי, ממוקד ומותאם אישית ללוח הזמנים הצפוף שלך.</p>
+                        <p>אני לא מלמד "משחק" – <span class="gold-text">אני מלמד שליטה.</span></p>
+                    </div>
                 </div>
-                <div class="image-content fade-up">
-                    <img src="images/why-us.png" alt="למה אנחנו" class="personal-image">
+
+                <div class="about-image-wrapper fade-up">
+                    <img src="images/about-asif.png" alt="אסיף אלקיים" class="about-image-large">
                 </div>
             </div>
         </section>
@@ -177,6 +170,7 @@
                     <p>השאירו פרטים ונחזור אליכם לבדיקת התאמה אישית.</p>
                 </div>
                 <form class="contact-form fade-up" name="contact" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
                     <div class="form-group">
                         <input type="text" name="name" placeholder="שם מלא" required>
                     </div>
