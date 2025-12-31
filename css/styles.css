@@ -460,6 +460,10 @@ footer {
     line-height: 1.8
 }
 
+.first-bio-paragraph {
+    margin-bottom: 25px;
+}
+
 .signature {
     font-family: 'Cursive', sans-serif;
     font-size: 2rem;
